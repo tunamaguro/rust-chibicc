@@ -1,0 +1,15 @@
+{
+    "name": "chibicc container",
+    "dockerComposeFile": [
+        "../compose.yaml"
+    ],
+    "service": "chibicc",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mhutchie.git-graph",
+            ]
+        }
+    },
+    "workspaceFolder": "/home/vscode/workspace"
+}

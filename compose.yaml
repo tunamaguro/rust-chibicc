@@ -1,0 +1,8 @@
+services:
+  chibicc:
+    build:
+      context: .
+    volumes:
+      - .:/home/vscode/workspace:cached
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    working_dir: /home/vscode/workspace
