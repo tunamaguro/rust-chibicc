@@ -10,7 +10,10 @@
                 "mhutchie.git-graph",
                 "ms-vscode.cpptools-extension-pack",
                 "ms-vscode.makefile-tools"
-            ]
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
         }
     },
     "workspaceFolder": "/home/vscode/workspace"
